@@ -1,4 +1,4 @@
 name "inet"
 description "Internet standard functionality"
-dependency "vibe-inet" version=">=1.0.0-rc.1 <2.0.0-0"
+dependency "vibe-inet-light" version="0.0.8"
 targetType "none"

@@ -732,8 +732,8 @@ final class RedisSubscriberImpl {
 		Task m_listenerHelper;
 		Task m_waiter;
 		Task m_stopWaiter;
-		InterruptibleRecursiveTaskMutex m_mutex;
-		InterruptibleTaskMutex m_connMutex;
+		RecursiveTaskMutex m_mutex;
+		TaskMutex m_connMutex;
 	}
 
 	private enum Action {
@@ -761,8 +761,8 @@ final class RedisSubscriberImpl {
 
 		logTrace("this()");
 		m_client = client;
-		m_mutex = new InterruptibleRecursiveTaskMutex;
-		m_connMutex = new InterruptibleTaskMutex;
+		m_mutex = new RecursiveTaskMutex;
+		m_connMutex = new TaskMutex;
 	}
 
 	// FIXME: instead of waiting here, the class must be reference counted
