@@ -1,5 +1,5 @@
 name "stream"
 description "Library of various pluggable stream implementations"
 
-dependency "vibe-stream-light" version="0.0.7"
+dependency "vibe-stream-light" version="0.2.1"
 targetType "none"

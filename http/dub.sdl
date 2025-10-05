@@ -1,4 +1,4 @@
 name "http"
 description "HTTP server and client implementation and higher level HTTP functionality"
-dependency "vibe-http-light" version="0.1.0"
+dependency "vibe-http-light" version="0.2.1"
 targetType "none"

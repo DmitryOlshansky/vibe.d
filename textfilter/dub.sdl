@@ -1,4 +1,4 @@
 name "textfilter"
 description "Text filtering routines"
-dependency "vibe-inet-light:textfilter" version="0.0.8"
+dependency "vibe-inet-light:textfilter" version="0.2.1"
 targetType "none"

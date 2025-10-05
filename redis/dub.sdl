@@ -1,6 +1,6 @@
 name "redis"
 description "Redis database client implementation"
-dependency "vibe-http-light" version="0.1.0"
+dependency "vibe-http-light" version="0.2.1"
 targetType "library"
 sourcePaths "."
 importPaths "."
