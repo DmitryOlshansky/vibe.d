@@ -1,7 +1,11 @@
 name "tls"
 description "TLS stream implementations"
 
+<<<<<<< Updated upstream
 dependency "vibe-stream-light:tls" version="0.2.1"
+=======
+dependency "vibe-stream-light:tls" version="~>0.2.2"
+>>>>>>> Stashed changes
 targetType "none"
 
 configuration "openssl-mscoff" {

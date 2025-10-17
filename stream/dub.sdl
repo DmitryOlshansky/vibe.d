@@ -1,5 +1,9 @@
 name "stream"
 description "Library of various pluggable stream implementations"
 
+<<<<<<< Updated upstream
 dependency "vibe-stream-light" version="0.2.1"
+=======
+dependency "vibe-stream-light" version="~>0.2.2"
+>>>>>>> Stashed changes
 targetType "none"

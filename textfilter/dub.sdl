@@ -1,4 +1,8 @@
 name "textfilter"
 description "Text filtering routines"
+<<<<<<< Updated upstream
 dependency "vibe-inet-light:textfilter" version="0.2.1"
+=======
+dependency "vibe-inet-light:textfilter" version="~>0.2.2"
+>>>>>>> Stashed changes
 targetType "none"

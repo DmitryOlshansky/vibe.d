@@ -1,4 +1,8 @@
 name "crypto"
 description "Cryptographic helper routines"
+<<<<<<< Updated upstream
 dependency "vibe-inet-light:crypto" version="0.2.1"
+=======
+dependency "vibe-inet-light:crypto" version="~>0.2.2"
+>>>>>>> Stashed changes
 targetType "none"

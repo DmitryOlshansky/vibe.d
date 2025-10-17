@@ -1,7 +1,12 @@
 name "mail"
 description "SMTP client support"
+<<<<<<< Updated upstream
 dependency "vibe-inet-light" version="0.2.1"
 dependency "vibe-stream-light:tls" version="0.2.1"
+=======
+dependency "vibe-inet-light" version="~>0.2.2"
+dependency "vibe-stream-light:tls" version="~>0.2.2"
+>>>>>>> Stashed changes
 targetType "library"
 sourcePaths "."
 importPaths "."
